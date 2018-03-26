@@ -1,9 +1,21 @@
-.filter-input {
-  height: 30px;
-  width: 200px;
-  margin: 10px auto;
+.checkboxInputs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  max-width: 600px;
 }
 
-.filter-button {
+.checkboxInput {
+  text-align: center;
+}
+
+.filterInput {
+  height: 16px;
+  width: 60px;
+  margin: 10px;
+}
+
+.filterButton {
   color: black;
 }
